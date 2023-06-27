@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "photo": "https://i.postimg.cc/jjgq0qWq/ayo-ogunseinde-THIs-cpyebg-unsplash.jpg",
+        "name": "Floyd Miles",
+        "role": "Process manager"
+    },
+    {
+        "id": 2,
+        "photo": "https://i.postimg.cc/ncX0J3Cv/11.jpg",
+        "name": "Alice Johnson",
+        "role": "Sales representative"
+    },
+    {
+        "id": 3,
+        "photo": "https://i.postimg.cc/0yC2n0Pw/christopher-campbell-r-DEOVt-E7v-Os-unsplash.jpg",
+        "name": "John Smith",
+        "role": "Software engineer"
+    },
+    {
+        "id": 4,
+        "photo": "https://i.postimg.cc/W3HBShdr/ivan-lapyrin-i-Bn-AF6-Mj-P20-unsplash.jpg",
+        "name": "Emily Davis",
+        "role": "Marketing coordinator"
+    },
+    {
+        "id": 5,
+        "photo": "https://i.postimg.cc/8CPk0fzn/jonas-kakaroto-Fs8-ZFf-Vh-cg-unsplash.jpg",
+        "name": "Michael Thompson",
+        "role": "HR manager"
+    },
+    {
+        "id": 6,
+        "photo": "https://i.postimg.cc/VkwkXVQw/kelly-sikkema-JN0-SUc-TOig0-unsplash.jpg",
+        "name": "Sarah Wilson",
+        "role": "Finance analyst"
+    },
+    {
+        "id": 7,
+        "photo": "https://i.postimg.cc/vHfmgdKX/sergio-de-paula-c-Gmwf-HBDzk-unsplash.jpg",
+        "name": "Sarah Wilson",
+        "role": "Finance analyst"
+    }
+]

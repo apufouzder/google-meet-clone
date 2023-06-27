@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "photo": "https://images.unsplash.com/photo-1687360440094-949b8fe71c8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "Ellen Miles",
+        "role": "Project manager"
+    },
+    {
+        "id": 2,
+        "photo": "https://images.unsplash.com/photo-1528892952291-009c663ce843?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "Alice Johnson",
+        "role": "Web Developer "
+    }
+]
