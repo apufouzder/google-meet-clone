@@ -75,7 +75,7 @@ const Meeting = () => {
 
                     <div className="lg:px-8 bg-primaryColor w-full bg-opacity-5 absolute bottom-0">
                         {/* front speaker name */}
-                        <div className="flex items-center justify-between">
+                        <div className="flex items-center lg:px-0 px-4 justify-between">
                             <h3 className="bg-blackColor text-whiteColor bg-opacity-40 py-2 px-4 rounded-full">Albert Flores</h3>
                             <span className="bg-blackColor text-xl text-whiteColor bg-opacity-40 p-3 rounded-full"><GoScreenFull /></span>
                         </div>
@@ -87,7 +87,7 @@ const Meeting = () => {
 
                         {/* Calling control option */}
                         <div className="flex items-center justify-between pb-4">
-                            
+
                             <div className="absolute lg:relative -top-[16.8rem] lg:top-0 left-1 lg:left-0 flex items-center gap-2 bg-blackColor bg-opacity-40 py-2 px-3 rounded-full"> {/* res */}
                                 <span className="text-redColor text-xl"><BsRecordCircleFill /></span>
                                 <span className="text-whiteColor font-medium text-sm">24:01:45</span>
@@ -107,7 +107,8 @@ const Meeting = () => {
                         </div>
                     </div>
                 </div>
-
+                
+                {/* Right side chat/Participants section */}
                 <>
                     <div className="lg:mt-0 mt-24 bg-grayColor p-4 rounded-xl bg-opacity-10"> {/* responsive code */}
                         <div className="grid grid-cols-2 items-center mb-6">
@@ -122,7 +123,7 @@ const Meeting = () => {
                             <span className="absolute text-whiteColor inset-y-0 left-0 flex  items-center pl-2">
                                 <HiOutlineSearch />
                             </span>
-                            <input className="placeholder:italic bg-grayColor bg-opacity-40 placeholder:text-grayColor block bg-white w-full rounded-md py-2 pl-8 pr-3 shadow-sm focus:outline-none sm:text-sm" placeholder="Search for anything..." type="text" name="search" />
+                            <input className="placeholder:italic text-whiteColor bg-grayColor bg-opacity-40 placeholder:text-grayColor block bg-white w-full rounded-md py-2 pl-8 pr-3 shadow-sm focus:outline-none sm:text-sm" placeholder="Search for anything..." type="text" name="search" />
                         </label>
 
                         {/* In meeting option */}

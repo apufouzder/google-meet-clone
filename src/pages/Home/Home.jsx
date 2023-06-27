@@ -21,7 +21,7 @@ const Home = () => {
                 </div>
 
                 <div className="flex items-center relative">
-                    <label className='absolute top-[0.9rem] text-2xl text-grayColor left-2'><MdKeyboard /></label>
+                    <label className='absolute text-2xl text-grayColor left-2'><MdKeyboard /></label>
                     <input type="text" placeholder="Enter a code or link" className="input focus:outline-none border-grayColor font-normal pl-9 text-xl rounded w-full" />
                 </div>
 
