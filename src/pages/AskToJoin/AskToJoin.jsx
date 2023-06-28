@@ -3,6 +3,7 @@ import { BiMicrophone, BiVideoOff, BiCaptions } from 'react-icons/bi';
 import { IoMdLaptop } from 'react-icons/io';
 import { FiSettings } from 'react-icons/fi';
 import { MdReportGmailerrorred, MdTroubleshoot, MdOutlineLiveHelp } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 
 
 const AskToJoin = () => {
@@ -51,7 +52,9 @@ const AskToJoin = () => {
                         <h1 className="text-4xl">Ready to join?</h1>
                         <strong className="my-9 block text-grayColor">No one else is here</strong>
                         <div className='flex justify-center gap-2 mb-10'>
-                            <button className="bg-primaryColor rounded-full font-medium btn capitalize text-lg hover:bg-primaryColor text-neutral-50 sm:btn-sm md:btn-md lg:btn-lg">Join now</button>
+                            <Link to="/meeting">
+                                <button className="bg-primaryColor rounded-full font-medium btn capitalize text-lg hover:bg-primaryColor text-neutral-50 sm:btn-sm md:btn-md lg:btn-lg">Join now</button>
+                            </Link>
                             <button className="bg-transparent hover:bg-opacity-10 rounded-full shadow-lg font-medium btn capitalize text-lg text-primaryColor sm:btn-sm md:btn-md lg:btn-lg">
                                 <span><BsArrowUpSquare /></span>Present
                             </button>

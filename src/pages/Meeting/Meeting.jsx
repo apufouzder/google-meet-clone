@@ -81,7 +81,7 @@ const Meeting = () => {
                         </div>
 
                         {/* Meeting participants profile */}
-                        <div className="my-4 absolute lg:relative lg:bottom-0 -bottom-28">
+                        <div className="my-4 w-full absolute lg:relative lg:bottom-0 -bottom-28">
                             <UserInMeeting />
                         </div>
 
